@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnInvoiceGeneration" type="id" />
+    <item name="btnInvoiceProcessing" type="id" />
+    <item name="btnTrackingMonitoring" type="id" />
+    <item name="btnFinancialReporting" type="id" />
+    <item name="textViewInvoiceDetails" type="id" />
+    <item name="etInvoiceDetails" type="id" />
+    <item name="btnProcessInvoice" type="id" />
+</resources>

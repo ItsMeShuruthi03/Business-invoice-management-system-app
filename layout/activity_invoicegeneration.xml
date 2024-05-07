@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Invoicegeneration">
+
+    <TextView
+        android:id="@+id/textViewItemSold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item Sold"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/ItemSold"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/textViewItemSold"
+        android:layout_marginTop="8dp"
+        android:hint="Enter Item Sold"/>
+
+    <TextView
+        android:id="@+id/textViewQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantity"
+        android:layout_below="@id/ItemSold"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/Quantity"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/textViewQuantity"
+        android:layout_marginTop="8dp"
+        android:inputType="number"
+        android:hint="Enter Quantity"/>
+
+    <TextView
+        android:id="@+id/textViewPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:layout_below="@id/Quantity"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/Price"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/textViewPrice"
+        android:layout_marginTop="8dp"
+        android:inputType="numberDecimal"
+        android:hint="Enter Price"/>
+
+    <TextView
+        android:id="@+id/textViewTax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tax (%)"
+        android:layout_below="@id/Price"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/Tax"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/textViewTax"
+        android:layout_marginTop="8dp"
+        android:inputType="numberDecimal"
+        android:hint="Enter Tax"/>
+
+    <TextView
+        android:id="@+id/textViewPaymentTerms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Terms"
+        android:layout_below="@id/Tax"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/PaymentTerms"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/textViewPaymentTerms"
+        android:layout_marginTop="8dp"
+        android:hint="Enter Payment Terms"/>
+
+    <Button
+        android:id="@+id/btnGenerateInvoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/PaymentTerms"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Generate Invoice"/>
+
+</RelativeLayout>

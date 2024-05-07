@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".financial">
+
+    <TextView
+        android:id="@+id/textViewAccountsReceivable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accounts Receivable Report"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/textViewAccountsPayable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accounts Payable Report"
+        android:layout_below="@id/textViewAccountsReceivable"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/textViewCashFlow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cash Flow Forecast"
+        android:layout_below="@id/textViewAccountsPayable"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/textViewProfitability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profitability Analysis"
+        android:layout_below="@id/textViewCashFlow"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+
+</RelativeLayout>
